@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/3d694a5dcc.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+
+
+	<title>Stock</title>
+</head>
+<body>
+	<!--nav section-->
+	<section>
+		
+		<nav class="navbar navbar-expand-lg main-navbar bg-color main-navbar-color" id="main-navbar">
+		<div class="container">
+			<a href="#" class="navbar-brand">Trading Yard</a>
+			<div class="order-lg-last btn-group">
+				
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav" aria-controls="myNav" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fas fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="myNav">
+				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					<li class="nav-item">
+						<a href="#" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="#trade" class="nav-link">Trading</a>
+					</li>
+					<li class="nav-item">
+						<a href="#chart" class="nav-link">Charts</a>
+					</li>
+					<li class="nav-item">
+						<a href="#blog-section" class="nav-link">News</a>
+					</li>
+					<li class="nav-item">
+						<a href="#contact" class="nav-link">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+	</nav>
+</section>
+
+	<!--home part-->
+
+	<section id="hero">
+		<div class="hero-container">
+			<div class="hero-logo">
+				<h1 class="font-weight-bold">Trading Yard</h1>
+			</div>
+			<h2 class="font-weight-bold">The fastest way to follow markets.</h2>
+			<div class="actions">
+				<a href="#trade" class="btn-get-started bg-warning">Trade Now</a>
+			</div>
+		</div>
+	</section>
+	
+
+	<!--trading section-->
+	<section class="book-section img"  id="trade">
+		<div class="container">
+			<div class="row d-flex">
+				<div class="col-md-7 make-trade p-4 px-md-5 pb-md-5">
+					<div class="heading-section mb-5 text-center">
+						<h2 class="mb-4">Start Trading Now</h2>
+					</div>
+					<form action="#chart">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="">Select a Stock: </label>
+									<div class="select-wrap on-third">
+										
+										<select name="" id="" class="form-control" required>
+											<option value="">Select Stock</option>
+											<option value="">NSE</option>
+											<option value="">BSE</option>
+											<option value="">BAJAJFINANCE</option>
+											<option value="">BANKNIFTY</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							
+							
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="">Start Date</label>
+									<input type="date" class="form-control" id="birthday" placeholder="Choose Start" required>
+								</div>
+							</div>
+
+							
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="">END Date</label>
+									<input type="date" class="form-control" id="birthday" placeholder="Choose Start" required>
+								</div>
+							</div>
+							<div class="col-md-12 mt-3">
+								<div class="form-group text-center">
+									<input type="submit" value="Submit" class="btn btn-book py-3 px-5">
+
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+<!--Chart Section-->
+
+	<section id="chart" class="chef my-5">
+		<div class="container">
+			<h2 class="text-center">
+				Choose a Chart
+			</h2>
+			<div class="row">
+				<div class="col-sm-3 col-xs-6">
+					<div class="card card-block">
+						<a href="#Line-chart">
+							<img src="Images/linechart.png" class="chef-img" alt="">
+							<div class="card-title-wrap">
+								<span class="card-title">
+									Line Chart
+								</span>
+
+								
+
+
+							</div>
+							<div class="chef-over">
+								<h4 class="hidden-md-down">
+									Line Chart
+								</h4>
+
+								
+
+								<p>It gives line chart.</p>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-sm-3 col-xs-6">
+					<div class="card card-block">
+						<a href="#Line-chart">
+							<img src="Images/candlestick.jfif" class="chef-img" alt="">
+							<div class="card-title-wrap">
+								<span class="card-title">
+									Candlestick Chart
+								</span>
+
+								
+
+							</div>
+							<div class="chef-over">
+								<h4 class="hidden-md-down">
+									Candlestick Chart
+								</h4>
+
+
+								<p>It gives Candlestick Chart.</p>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-sm-3 col-xs-6">
+					<div class="card card-block">
+						<a href="#Line-chart">
+							<img src="Images/supportres.png" class="chef-img" alt="">
+							<div class="card-title-wrap">
+								<span class="card-title">
+									Support and Resistance
+								</span>
+
+							
+
+
+							</div>
+							<div class="chef-over">
+								<h4 class="hidden-md-down">
+									Support & Resistance
+								</h4>
+								
+
+
+								<p>Show Support and Resistance.</p>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-sm-3 col-xs-6">
+					<div class="card card-block">
+						<a href="#Line-chart">
+							<img src="Images/prediction.jfif" class="chef-img" alt="">
+							<div class="card-title-wrap">
+								<span class="card-title">
+									Prediction
+								</span>
+								
+							</div>
+							<div class="chef-over">
+								<h4 class="hidden-md-down">
+									Prediction
+								</h4>
+
+								
+								<p>Make Prediction</p>
+							</div>
+						</a>
+					</div>
+				</div>
+
+
+
+			</div>
+		</div>
+
+	</section>
+
+<!--stock section-->
+<section id="Line-chart">
+	<div id="chartContainer" style="height:650px; width: 100%;"></div>
+
+</section>
+
+<!--start of news section-->
+<section class="blog-section" id="blog-section">
+		<div class="container">
+			<div class="row justify-content-center pb-5">
+				<div class="col-md-7 heading-section text-center">
+					<h2 class="font-weight-bold text-color glow" style="color: #f8aa02; font-size: 50px; padding-top: 20px; font-style: italic;">
+						News
+					</h2>
+				</div>
+			</div>
+
+			<div class="row d-flex">
+				<div class="col-lg-6 d-flex align-items-stretch">
+					<div class="blog-start d-flex">
+						<a href="#" class="block-20 img" style="background-image: url('Images/lupin.png');"></a>
+
+						<div class="text p-4 bg-light">
+							<div class="des">
+								<p><i class="fa fa-calendar"></i>
+								LUPIN, 15</p>
+							</div>
+							<h3 class="heading mb-3">
+								<a href="#">
+									LUPIN-BULLISH-ASCENDING TRIANGLE
+								</a>
+							</h3>
+
+							<p>"Company launched cancer drug lapatinib
+							tablets in the US". This news may or may not have an
+						impact on the stock, but the pattern and price action 
+					clearly gives a bullish indication.</p>
+			    			<a href="#" class="btn-custom">Continue
+			    				<i class="fa fa-long-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-6 d-flex align-items-stretch">
+					<div class="blog-start d-flex">
+						<a href="#" class="block-20 img" style="background-image: url('Images/banknifty.png');"></a>
+
+						<div class="text p-4 bg-light">
+							<div class="des">
+								<p><i class="fa fa-calendar"></i>
+								BANKNIFTY,15</p>
+							</div>
+							<h3 class="heading mb-3">
+								<a href="#">
+									BANKNIFTY ON 15 min CHART PATTERN
+								</a>
+							</h3>
+
+							<p>Banknifty has formed double bottom pattern on
+							15 min chart. If we look closely it is approaching 
+						towards its resistance level. Tommorrow we have news on
+					INTERESET..</p>
+			    			<a href="#" class="btn-custom">Continue
+			    				<i class="fa fa-long-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-6 d-flex align-items-stretch">
+					<div class="blog-start d-flex">
+						<a href="#" class="block-20 img" style="background-image: url('Images/shreynind.jfif');"></a>
+
+						<div class="text p-4 bg-light">
+							<div class="des">
+								<p><i class="fa fa-calendar"></i>
+								SHREYANIND, 1D</p>
+							</div>
+							<h3 class="heading mb-3">
+								<a href="#">
+									SHREYANS INDUSTRIES EXPECTED TO RALLY FROM THESE LEVELS
+								</a>
+							</h3>
+
+							<p>SHREYANS industries has been consolidating
+							for about a year now and is at its support range
+						now. The company has last declared its dividend before the covid
+					crisis..</p>
+			    			<a href="#" class="btn-custom">Continue
+			    				<i class="fa fa-long-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-6 d-flex align-items-stretch">
+					<div class="blog-start d-flex">
+						<a href="#" class="block-20 img" style="background-image: url('Images/audusd.jfif');"></a>
+
+						<div class="text p-4 bg-light">
+							<div class="des">
+								<p><i class="fa fa-calendar"></i>
+								AUDUSD, 120</p>
+							</div>
+							<h3 class="heading mb-3">
+								<a href="#">
+									AUDUSD MAKING UP TREND
+								</a>
+							</h3>
+
+							<p>AUD is bullish on USD like euro, gbp,others
+							and making new high for this bullish movement my target is
+						0.76500 after that it do some correction that's my analysis btw 
+					what your analysis say..</p>
+			    			<a href="#" class="btn-custom">Continue
+			    				<i class="fa fa-long-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="row justify-content-center">
+				<div class="col-md-4">
+					<a href="tradingview.com/ideas/news" class="btn btn-prod d-block">
+						View More
+						
+					</a>
+				</div>
+			</div>
+
+
+			</div>
+		</div>
+	</section>
+
+	
+	
+
+<!--contact section-->
+
+	<section class="footer" id="contact">
+            <p class="footer__title">Kiran Kasmale</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p>2020 copyright all right reserved</p>
+        </section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
