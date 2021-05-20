@@ -217,6 +217,18 @@ body{
 }
 
 
+#Line-chart img{
+	width: 100%;
+	height: 100vh;
+	background: url(Images/chart.jfif) top center;
+}
+
+@media(min-width: 1024px){
+	#Line-chart{
+		background-attachment: fixed;
+	}
+}
+
 
 /*Blog section */
 
